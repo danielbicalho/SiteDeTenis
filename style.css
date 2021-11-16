@@ -27,6 +27,7 @@ body {
 
 .container-flex-spaced {
     justify-content: space-between;
+    align-items: center;
 }
 
 .header{
@@ -47,9 +48,38 @@ body {
     margin: 0 12px;
 }
 
-.heard-cart {
-    display: inline-block;
+.header-search {
+    font-size: 16px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: #F2F2F2;
+    background-image: url('./images/lupa.png');
+    background-repeat: no-repeat;
+    background-position:13px 20px;
+    background-size: 18px;
+    border-radius: 50px;
+    border: 0;
+    min-width: 232px;
+    padding: 18px 20px 18px 40px;
+    font-family: "Lato";
+    }
 
+.header-search ::before {
+    content: "";
+}
+
+.header-cart {
+    width: 52px;
+    height: 52px;
+    display: inline-block;
+    background-image: url('./images/carrinho.png');
+    background-color: #F2F2F2;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    vertical-align: middle;
+    margin-left: 24px;
 }
 
 .section-run {
